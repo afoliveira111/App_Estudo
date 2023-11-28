@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         binding.buttonOla.setOnClickListener {
             val nome: String = binding.editNome.text.toString()
             //binding.textResultado.text = "Ola" + nome
-            binding.textResultado.text = "Ola + ${nome}"
-            //binding.textResultado.text = "Ola" + nome
+            //binding.textResultado.text = "Ola + ${nome}"
+            binding.textResultado.text = "Ola" + nome
         }
     }
 }
